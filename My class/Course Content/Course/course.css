@@ -1,0 +1,106 @@
+
+.container{
+display: flex;
+justify-content: space-around;
+position: absolute;
+width: 700px;
+top: 140px;
+left: 250px;
+
+}
+/* 
+h1{
+margin-top: 0;
+text-align: center;
+font-size: 55px;
+color: white;
+cursor: default;
+} */
+.wrapper{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.content{
+width: 900px;
+margin-top: 80px;
+font-size: 25px;
+
+border-radius: 15px;
+color: rgb(0, 0, 0);
+cursor: default;
+margin-left: 180px;
+}
+.pagination-container{
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+width: 100%;
+}
+.pagination{
+width: 500px;
+border-radius: 35px;
+box-shadow: 0 0 20px 5px rgb(3, 3, 43);
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid blue;
+padding: 10px 10px;
+list-style: none;
+}
+ .pagination a{
+padding: 9px 18px;
+font-weight: 500;
+text-decoration: none;
+font-size: 25px;
+color: rgb(155, 155, 238);
+border-radius: 50%;
+transition: 0.5s ease-in-out;
+} 
+/* #paginationList{
+list-style: none;
+} */
+.paginationList-file a{
+    display: flex;
+    gap: 15px;
+    color: rgb(15, 14, 14);
+}
+#paginationList .paginationList-file{
+height: 50px;
+border: 1px solid rgb(107, 93, 93);
+margin-top: 5px;
+border-radius: 5px;
+box-shadow: 0px 0px 10px silver;
+
+}
+.control{
+font-size: 25px;
+font-weight: bold;
+
+color: rgb(200, 200, 239);
+border: none;
+cursor: pointer;
+padding: 10px 10px;
+border-radius: 25px;
+transition: 0.5s ease-in-out ;
+}
+.disabled{
+color: rgba(12, 16, 41, 0.5);
+cursor: default;
+}
+.control:not(.disabled):hover,.pageNumbers a:hover{
+background-color: rgb(9, 9, 75);
+color: white;
+}
+a.active{
+background-color: rgb(9, 9, 75);
+color: white;
+}
+.hidden{
+display: none;
+}
+/* a{
+text-decoration: none;
+
+}  */

@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../MyCourse.css">
+    <link rel="stylesheet" href="./course.css">
+    <link rel="stylesheet" href="../Course-Content.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+<style>
+
+</style>
+    
+</head>
+<body>
+    <Header class="Header-dashbaord">
+        <div>
+            <i class="ri-align-justify"></i>
+        </div>
+        
+        <div class="Header-dashbaord-text">
+            <h1>Full Stact Webb Development Program </h1>
+        </div>
+    </Header>
+    <nav class="nav-dasboard">
+        <div>
+         <a href="../../Mycourse.html">  
+            <h3>DashBoard</h3>
+         </a>
+
+        </div>
+
+        <div>
+            <a href="../CourseContent.html">  
+                <h3>Course Content</h3>
+             </a>
+        </div>
+    </nav>
+
+    <main class="tabs">
+        
+        <div class="left-content-Content">
+         <div class="left-content-Content-text-search">
+             <input type="text" placeholder="Enter for Search" class="left-content-Content-text-item"/>
+         </div>
+         <div class="left-content-Content-text" id="Getting-Started">
+             <a href="../getStart/getstart.html">  
+             <i class="ri-shut-down-line"></i>
+           <p>Getting Started</p>
+         </a>
+         </div>
+ 
+         <div class="left-content-Content-text" id="Course-Content" onclick="courseContentShow()">
+             <a href="../Course/Cours.html"> 
+                 
+             <i class="ri-align-justify"></i>
+            <p>Course Content</p>
+         </a>
+         </div>
+         <div class="left-content-Content-text" id="Class-Recordings">
+             <a href="../class Recording/Recording.html">  
+             <i class="ri-live-fill"></i>
+             <p>Class Recordings</p>
+         </a>
+          </div>
+          <div class="left-content-Content-text" id="Personal-Library">
+             <a href="../Lab.html/Lab.html">  
+             <i class="ri-school-fill"></i>
+             <p>Personal Library</p>
+            </a>
+          </div>
+        </div>
+     </main>
+
+    <div class="container">
+   
+        <div class="pagination-container">
+            <div class="pagination">
+                <button class="control" id="prev" title="Previous page">
+                     Prev
+                </button>
+                <div class="pageNumbers">
+                    <!--Page Numbers-->
+                </div>
+                <button class="control" id="next" title="Next page">
+                    Next 
+                </button>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="content">
+                <div id="paginationList">
+                    <div class="paginationList-file">
+                      <a href="https://youtu.be/6mbwJ2xhgzM?si=kOkdX7woqz-FXCrk">
+                        <i class="ri-movie-line"></i>
+                        <p>Introduction Video</p>
+
+                      </a>
+                    </div>
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/TeZdo8mx0gc?si=qPKu2JwOStiKU5kC">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Installing VS Code & Live Serve</p>
+    
+                          </a>
+                    </div>
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/IA8JWGP13dI?si=fk8BUg1QuHzqLmaR">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Basic Structure of a Website | Web Development Tutorials #3</p>
+    
+                          </a>
+                    </div>
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/EZCc_4abdcE?si=I8ZWV8nC0wSbwASq">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Title, Script, Link & Meta Tags | Web Development Tutorials #4</p>
+    
+                          </a>
+                    </div>
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/ulv_q6-b7uI?si=xrMWpbKM3L60lhFN">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Headings & Paragraphs | Web Development Tutorials #5</p>
+    
+                          </a>
+                    </div>
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/z6H22xGAZEA?si=JjnOnckPAVC3GZmf">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Img and Anchor tags | Web Development Tutorials #6</p>
+    
+                          </a>
+                    </div>
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/N69xumSjg5Q?si=aGfr0i9Ab68rnWTm">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Forms & Input Tags | Web Development Tutorials #8</p>
+    
+                          </a>
+                    </div>
+
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/EZCc_4abdcE?si=I8ZWV8nC0wSbwASq">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Title, Script, Link & Meta Tags | Web Development Tutorials #4</p>
+    
+                          </a>
+                    </div>
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/ulv_q6-b7uI?si=xrMWpbKM3L60lhFN">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Headings & Paragraphs | Web Development Tutorials #5</p>
+    
+                          </a>
+                    </div>
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/z6H22xGAZEA?si=JjnOnckPAVC3GZmf">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Img and Anchor tags | Web Development Tutorials #6</p>
+    
+                          </a>
+                    </div>
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/N69xumSjg5Q?si=aGfr0i9Ab68rnWTm">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Forms & Input Tags | Web Development Tutorials #8</p>
+    
+                          </a>
+                    </div>
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/z6H22xGAZEA?si=JjnOnckPAVC3GZmf">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Img and Anchor tags | Web Development Tutorials #6</p>
+    
+                          </a>
+                    </div>
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/N69xumSjg5Q?si=aGfr0i9Ab68rnWTm">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Forms & Input Tags | Web Development Tutorials #8</p>
+    
+                          </a>
+                    </div>
+
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/EZCc_4abdcE?si=I8ZWV8nC0wSbwASq">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Title, Script, Link & Meta Tags | Web Development Tutorials #4</p>
+    
+                          </a>
+                    </div>
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/z6H22xGAZEA?si=JjnOnckPAVC3GZmf">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Img and Anchor tags | Web Development Tutorials #6</p>
+    
+                          </a>
+                    </div>
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/N69xumSjg5Q?si=aGfr0i9Ab68rnWTm">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Forms & Input Tags | Web Development Tutorials #8</p>
+    
+                          </a>
+                    </div>
+
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/EZCc_4abdcE?si=I8ZWV8nC0wSbwASq">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Title, Script, Link & Meta Tags | Web Development Tutorials #4</p>
+    
+                          </a>
+                    </div>
+
+                    
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/EZCc_4abdcE?si=I8ZWV8nC0wSbwASq">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Title, Script, Link & Meta Tags | Web Development Tutorials #4</p>
+    
+                          </a>
+                    </div>
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/z6H22xGAZEA?si=JjnOnckPAVC3GZmf">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Img and Anchor tags | Web Development Tutorials #6</p>
+    
+                          </a>
+                    </div>
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/N69xumSjg5Q?si=aGfr0i9Ab68rnWTm">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Forms & Input Tags | Web Development Tutorials #8</p>
+    
+                          </a>
+                    </div>
+
+                    
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/EZCc_4abdcE?si=I8ZWV8nC0wSbwASq">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Title, Script, Link & Meta Tags | Web Development Tutorials #4</p>
+    
+                          </a>
+                    </div>
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/z6H22xGAZEA?si=JjnOnckPAVC3GZmf">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Img and Anchor tags | Web Development Tutorials #6</p>
+    
+                          </a>
+                    </div>
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/N69xumSjg5Q?si=aGfr0i9Ab68rnWTm">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Forms & Input Tags | Web Development Tutorials #8</p>
+    
+                          </a>
+                    </div>
+
+                    
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/EZCc_4abdcE?si=I8ZWV8nC0wSbwASq">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Title, Script, Link & Meta Tags | Web Development Tutorials #4</p>
+    
+                          </a>
+                    </div>
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/z6H22xGAZEA?si=JjnOnckPAVC3GZmf">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Img and Anchor tags | Web Development Tutorials #6</p>
+    
+                          </a>
+                    </div>
+                    <div class="paginationList-file">
+                        <a href="https://youtu.be/N69xumSjg5Q?si=aGfr0i9Ab68rnWTm">
+                            <i class="ri-movie-line"></i>
+                            <p>HTML Tutorial: Forms & Input Tags | Web Development Tutorials #8</p>
+    
+                          </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+   
+    </div>
+    <script>
+        const pageNumbers = document.querySelector(".pageNumbers");
+const paginationList = document.getElementById("paginationList");
+const listItems = paginationList.querySelectorAll(".paginationList-file");
+const prevButton = document.getElementById("prev");
+const nextButton = document.getElementById("next");
+
+const contentLimit = 10;
+const pageCount = Math.ceil(listItems.length / contentLimit);
+let currentPage = 1;
+
+const displayPageNumbers = (index) =>{
+    const pageNumber = document.createElement("a");
+    pageNumber.innerText = index;
+    pageNumber.setAttribute('href', "#");
+    pageNumber.setAttribute("index", index);
+    pageNumbers.appendChild(pageNumber);
+};
+
+const getPageNumbers = ()=>{
+    for(let i=1; i <= pageCount; i++){
+        displayPageNumbers(i);
+    };
+};
+
+const disableButton = (button) =>{
+    button.classList.add("disabled");
+    button.setAttribute("disabled", true);
+};
+
+const enableButton = (button) =>{
+    button.classList.remove("disabled");
+    button.removeAttribute("disabled");
+};
+
+const controlButtonsStatus = () =>{
+    if(currentPage == 1){
+        disableButton(prevButton);
+    }
+    else{
+        enableButton(prevButton);
+    }
+    if(pageCount == currentPage){
+        disableButton(nextButton);
+    }
+    else{
+        enableButton(nextButton);
+    }
+};
+
+const handleActivePageNumber = () =>{
+    document.querySelectorAll('a').forEach((button) =>{
+        button.classList.remove("active");
+        const pageIndex = Number(button.getAttribute("index"));
+        if(pageIndex == currentPage){
+            button.classList.add('active');
+        }
+    });
+};
+
+const setCurrentPage = (pageNum) =>{
+    currentPage = pageNum;
+
+    handleActivePageNumber();
+    controlButtonsStatus();
+
+    const prevRange = (pageNum -1) * contentLimit;
+    const currRange = pageNum * contentLimit;
+
+    listItems.forEach((item, index) =>{
+        item.classList.add('hidden');
+        if(index >= prevRange && index < currRange){
+            item.classList.remove('hidden');
+        }
+    });
+};
+
+window.addEventListener('load', ()=>{
+    getPageNumbers();
+    setCurrentPage(1);
+
+    prevButton.addEventListener('click', ()=>{
+        setCurrentPage(currentPage - 1);
+    });
+
+    nextButton.addEventListener("click", ()=>{
+        setCurrentPage(currentPage + 1);
+    });
+
+    document.querySelectorAll('a').forEach((button) =>{
+        const pageIndex = Number(button.getAttribute('index'));
+
+        if(pageIndex){
+            button.addEventListener('click', ()=>{
+                setCurrentPage(pageIndex);
+            });
+        };
+    });
+});
+
+
+    </script>
+    
+
+    <script src="../Course-Content.js"></script>
+</body>
+</html>
