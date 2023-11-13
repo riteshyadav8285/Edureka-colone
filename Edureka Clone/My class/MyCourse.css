@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Header-dashbaord-text h1{
+
+    margin-left: 30px;
+}
+
+.Header-dashbaord{
+    display: flex;
+    height: 60px;
+    margin: 15px;
+}
+a{
+    text-decoration: none;
+    color: rgb(42, 87, 165);
+}
+.nav-dasboard{
+    display: flex;
+    gap: 20px;
+    margin-left: 50px;
+
+}
+.nav-dasboard-text{
+    color: blue;
+    background-color: rgb(80, 37, 1);
+
+}  
+.nav-dasboard-text h3{
+    color: rgb(42, 87, 165);
+
+}  
+
+.DashBoard-content{
+    display: flex;
+    margin-top: 10px;
+    padding: 20px;
+    gap: 40px;
+    justify-content: center;
+  
+}
+.DashBoard-certification{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.DashBoard-certification-text-iip{
+    font-weight: 700;
+    font-size: large;
+}
+
+.DashBoard-icon{
+    width: 500px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(224, 254, 229);
+    color: rgb(5, 187, 5);
+    border-radius: 5px;
+    gap: 10px;
+   
+
+}.ri-check-double-line{
+font-size: 40px;
+}
+

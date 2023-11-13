@@ -1,0 +1,401 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#nav{
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    z-index: 999;
+  
+
+}
+.ed-text{
+    /* color: rgb(39, 51, 219); */
+    margin-left: 55px;
+    font-size: 25px;
+}
+.ed-text p{
+    color: black;
+    font-size: 13px;
+}
+.select{
+    margin-top: 10px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   gap: 20px;
+   font-size: 19px;
+   height: 50px;
+
+}
+.search{
+    /* border: 1px solid gray; */
+    border-radius: 10px ;
+    font-size: 20px;
+   
+    border: 1px solid silver;
+    
+
+}
+.navbar{
+   
+   
+    display: flex;
+   justify-content: space-evenly;
+   gap: 20px;
+   font-size: 15px;
+
+
+}
+ul {
+    list-style: none;
+}
+a{
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+}
+.login{
+    width: 65px;
+    margin-right: 10px;
+     border: 1px solid gray; 
+    border-radius: 5px;
+}
+.mid{
+    background-image: url("internship_banner_details_1113_1670498944.jpg");
+    height: 500px;
+
+    background-size: cover;
+    
+   
+}
+.text{
+    position: absolute; top: 100px; left: 350px; color: white; font-size: 35px; gap:20px;  height: 400px;
+}
+._3phase{
+   
+     /* border: 1px solid; */
+     margin-left: 100px;
+     margin-top: 50px;
+    text-align: center;
+     margin-right: 100px;
+     color: rgb(3, 3, 78);
+
+}
+._3phase h1{ font-size: 40px;
+    
+}
+.course{
+    display: flex;
+    
+    height: 250px;
+    
+    margin-top: 35px;
+    margin-left: 300px;
+    gap: 50px;
+}
+.d-course{
+    width: 250px;
+    height: 250px;
+   
+
+}
+.d-course img{
+    width: 100px;
+    height: 100px;
+   
+}
+._4phase{
+    display: flex;
+    margin-top: 5em;
+    margin-top: 35px;
+    margin-left: 300px;
+
+}
+.fa-magnifying-glass{
+    align-items: center;
+
+  }
+.top{
+    width: 70%;
+    background-color: rgb(171, 200, 200);
+    display: flex;
+    margin: 5em;
+    
+}
+.phase4b{
+    width: 50%;
+    background-color: rgb(138, 157, 157);
+}
+
+.community {
+    
+    position: relative;
+     display: inline-block; 
+    gap: 20px;
+    transition: all ease-in 0.5s;
+    
+  
+  }
+  
+.menu {
+    background-color: white;
+    display: none;
+    position: absolute;
+  
+    z-index: 1;
+    top: 40px;
+width: 100px;
+
+  }
+  .menu  li{
+    font-size: 20px;
+    text-align: center;
+  }
+ .community:hover .menu{
+  display: block
+  ;
+  font-size: 15px;
+ }
+
+  /* thrid part */
+#img{
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+  
+  }
+  
+  #imgcont{
+    height: 60%;
+    height: 500px; 
+    position: relative;
+    margin: auto;
+  
+  }
+  .slider{
+    position: absolute;
+    height: 500px; 
+  
+    width: 100%;
+    margin: auto;
+  
+  }
+  
+  
+  .btn-right{
+    top: 300px;
+    position: absolute;
+    left: 0;
+    font-size: 70px;
+    background-color: transparent;
+  
+  }
+  .btn-left{
+    top: 300px;
+    position: absolute;
+    right: 0;
+    font-size: 70px;
+    background-color: transparent;
+  
+  }
+  .demo-class{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+  }
+  
+  /* Fouth phase */
+  .card-forthphase{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    top: 560px;
+  
+  
+  
+  }
+  
+  .threecard{
+    display: flex;
+    background: rgb(255, 255, 255);
+    box-shadow: 6px 6px 12px rgb(39, 36, 36);
+    width: 350px;
+    height: 100px;
+    position: relative;
+    top: -50px;
+  
+  
+  
+  }
+  .card-fouth-phase-text{
+    top: 30px;
+    position: absolute;
+    font-size: 15px;
+    left: 20px;
+    color: slategrey;
+  
+  }
+  .card-fouth-phase-text1{
+    position: absolute;
+    display: flex;
+    font-size: 15px;
+    left: 200px;
+    top: 29px;
+    color: blue;
+  
+  }
+  
+  /* Middle part */
+
+
+.container{
+  margin: auto;
+  padding: auto;
+  width: 1100px;
+
+  height: 850px;
+
+}
+.container-navbar{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  height: 37px;
+  color: rgb(136, 136, 136);
+
+  
+
+
+}
+.container-box{
+
+  display: flex;
+  width: 1100px;
+
+  overflow-x: hidden;
+
+
+} 
+.container-box::-webkit-scrollbar{
+  display: flex;
+}
+.card-holder{
+
+  display: flex ;
+
+  width:100%;
+ column-gap: -1000px;
+
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: 400px 400px ;
+
+
+
+}
+
+
+.multi-card{
+  box-shadow: 0px 0px 6px gray;
+  font-size: 30px;
+  width: 340px;
+   left: 10px;
+   right: 30px;
+    position: relative;
+    border-radius: 10px 10px;
+    height: 340px;
+}
+.first_display{
+  position: relative;
+
+}
+.courseimgmain{
+  height: 120px;
+  position: absolute;
+ 
+}
+.coursedetails{
+  position: absolute;
+  z-index: 999;
+  bottom: -240px;
+  font-size: 20px;
+  color: black;
+}
+.cr_title{
+  color: rgb(255, 253, 250);
+}
+ 
+.container-img{
+position: relative;
+  height: 140px;
+  width: 300px;
+}
+.img{
+  height: 140px;
+  width: 340px;
+}
+.box-text{
+  font-size: 13px;
+  color: blue;
+  margin-left: 25px;
+  height: 110px;
+}
+.titledesk{
+  background-color: yellow;
+  font-size: 12px;
+  width: 150px;
+  position: relative;
+  top: -15px;
+  left: 45px;
+}
+.viewdetailsbtn{
+  text-align: center;
+  border: 1px solid rgb(36, 141, 228); 
+  position: relative;
+  padding: 13px;
+  height: 20px;
+font-size: 30px;
+width: 30px;
+left: 50px;
+top: 15px;
+
+} 
+/* Footer */
+.footer{
+    background-color: #f7f8f9;
+    width: 100%;
+  
+  
+  }
+  .Course-footer{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+  
+  }
+  ul li{
+    list-style: none;
+    padding: 5px;
+  
+  }
+    
+  .second-footer-flex{
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  
+  .second-footer-flex li{
+    display:inline;
+  width: 100%;
+  }
+  
+
